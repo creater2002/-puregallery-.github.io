@@ -1,1 +1,108 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f1e9">
+  <meta name="description" content="Авторские холсты для интерьера. Выберите работу, размер и удобный способ доставки.">
+  <title>PURE GALLERY — холсты для вашего пространства</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">Искусство, которое делает пространство вашим <span>✳</span> Европа · почта и самовывоз</div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="PURE GALLERY — главная"><span class="brand-mark">F.</span><span>PURE GALLERY<small>ART FOR YOUR SPACE</small></span></a>
+    <nav class="desktop-nav" aria-label="Главная навигация">
+      <a href="#catalog">Каталог</a><a href="#about">О студии</a><a href="#delivery">Доставка и оплата</a>
+    </nav>
+    <a class="header-cart" href="#order">Корзина <span id="cart-count">0</span></a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Открыть меню">☰</button>
+  </header>
 
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">КОЛЛЕКЦИЯ ХОЛСТОВ · 2026</p>
+        <h1>Искусство<br><em>быть собой.</em></h1>
+        <p class="hero-lead">Современные холсты для выразительных интерьеров. Выберите работу из наличия, подберите размер — мы согласуем доставку и оплату.</p>
+        <a class="button button-dark" href="#catalog">Выбрать холст <span>↗</span></a>
+        <div class="hero-note"><span class="dot"></span> Работы в наличии отмечены в каталоге</div>
+      </div>
+      <div class="hero-art">
+        <div class="art-frame hero-frame"><img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=1200&q=85" alt="Абстрактная картина в интерьере"></div>
+        <div class="hero-sticker">ART<br>FOR<br>LIVING</div>
+        <div class="hero-caption">01 / Найдите свою историю</div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div><b>01</b><span>Выбор из наличия</span></div><div><b>02</b><span>Несколько размеров</span></div><div><b>03</b><span>Бережная упаковка</span></div><div><b>04</b><span>Оплата удобным способом</span></div>
+    </section>
+
+    <section class="catalog section" id="catalog">
+      <div class="section-heading">
+        <div><p class="eyebrow">НАЙДИТЕ СВОЙ ХОЛСТ</p><h2>Каталог работ<span class="heading-dot">.</span></h2></div>
+        <p class="section-intro">Каждая работа — акцент, который собирает интерьер воедино. Фильтруйте коллекцию и подбирайте размер.</p>
+      </div>
+      <div class="filters">
+        <div class="filter-tabs" id="category-filters" aria-label="Категории">
+          <button class="filter-chip active" data-category="all">Все работы</button>
+          <button class="filter-chip" data-category="abstract">Абстракция</button>
+          <button class="filter-chip" data-category="nature">Природа</button>
+          <button class="filter-chip" data-category="minimal">Минимализм</button>
+        </div>
+        <label class="sort-label">Сортировка
+          <select id="sort-select"><option value="featured">Сначала популярные</option><option value="price-asc">Сначала дешевле</option><option value="price-desc">Сначала дороже</option></select>
+        </label>
+      </div>
+      <div class="catalog-meta"><span id="results-count">6 работ</span><span>Цены указаны за выбранный размер</span></div>
+      <div class="product-grid" id="product-grid"></div>
+    </section>
+
+    <section class="manifesto section" id="about">
+      <div class="manifesto-image"><img src="https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&w=1100&q=85" alt="Художественная мастерская"></div>
+      <div class="manifesto-copy"><p class="eyebrow">НЕ ПРОСТО ДЕКОР</p><h2>Пространство<br>начинается<br><em>с ощущения.</em></h2><p>PURE GALLERY — подборка холстов для современных пространств. Выбирайте работу, которая откликается именно вам, а детали заказа мы согласуем лично.</p><a class="text-link" href="#catalog">Посмотреть коллекцию <span>↗</span></a></div>
+    </section>
+
+    <section class="details-section section" id="delivery">
+      <div class="section-heading"><div><p class="eyebrow">ВСЁ ПРОСТО И ПРОЗРАЧНО</p><h2>Покупка без вопросов<span class="heading-dot">.</span></h2></div><p class="section-intro">Условия ниже — стартовый шаблон. Перед публикацией замените сроки, тарифы и способы оплаты на ваши реальные.</p></div>
+      <div class="details-grid">
+        <article class="detail-card"><span class="detail-number">01 / ДОСТАВКА</span><div class="detail-icon">↗</div><h3>Бережно до двери</h3><p>Доставка почтой по Европе в защитной упаковке. Стоимость и ориентировочный срок рассчитываем индивидуально по стране, адресу и размеру холста.</p><ul><li>Самовывоз — по предварительной договорённости и согласованному адресу</li><li>Почтовая отправка по Европе — стоимость подтверждаем до оплаты</li><li>Номер отслеживания отправим после отправки</li></ul></article>
+        <article class="detail-card"><span class="detail-number">02 / ОПЛАТА</span><div class="detail-icon">＋</div><h3>Удобный способ</h3><p>Оплата производится банковским переводом. После проверки наличия мы отправим итоговую сумму и реквизиты для перевода. Не переводите деньги до подтверждения заказа.</p><ul><li>Банковский перевод после подтверждения заказа</li><li>Реквизиты и итоговая сумма — в ответном сообщении</li><li>Отправка после согласования поступления оплаты</li></ul></article>
+        <article class="detail-card"><span class="detail-number">03 / ВАЖНО ЗНАТЬ</span><div class="detail-icon">✳</div><h3>Перед заказом</h3><p>Фотографии холстов в каталоге замените на собственные снимки. Цвет на экране может немного отличаться от реального. Наличие подтверждаем перед оплатой.</p><ul><li>Размер указан без учёта возможного оформления</li><li>Проверяйте холст при получении</li><li>Индивидуальные условия обсуждаем отдельно</li></ul></article>
+      </div>
+    </section>
+
+    <section class="faq section">
+      <div><p class="eyebrow">ОТВЕЧАЕМ ЗАРАНЕЕ</p><h2>Частые вопросы<span class="heading-dot">.</span></h2></div>
+      <div class="faq-list">
+        <details><summary>Как понять, какой размер выбрать?<span>＋</span></summary><p>Измерьте свободную стену и отметьте малярной лентой примерный контур холста. Для небольших зон подойдут компактные форматы, для акцентной стены — крупные.</p></details>
+        <details><summary>Можно ли уточнить наличие перед заказом?<span>＋</span></summary><p>Да. Отправьте заявку через корзину — мы подтвердим наличие выбранной работы и размера до оплаты.</p></details>
+        <details><summary>Как ухаживать за холстом?<span>＋</span></summary><p>Не размещайте работу под прямыми солнечными лучами и рядом с источниками влаги. Пыль удаляйте мягкой сухой тканью без нажима.</p></details>
+      </div>
+    </section>
+
+    <section class="order-section" id="order">
+      <div class="order-copy"><p class="eyebrow">ВАШ ВЫБОР</p><h2>Почти<br><em>у вас дома.</em></h2><p>Добавьте понравившиеся работы в корзину и отправьте заявку. Мы уточним наличие, доставку и оплату.</p><div class="order-contact">Есть вопрос? <a id="contact-link" href="https://t.me/your_telegram">Напишите нам в Telegram ↗</a></div></div>
+      <div class="cart-panel"><div class="cart-title"><h3>Ваша корзина</h3><span id="cart-label">0 позиций</span></div><div id="cart-items" class="cart-items"><div class="empty-cart">Пока здесь пусто.<br><a href="#catalog">Выбрать первый холст ↗</a></div></div><div class="cart-total"><span>Предварительная сумма</span><strong id="cart-total">€0</strong></div>
+        <form id="order-form">
+          <div class="form-row"><label>Ваше имя<input name="name" required placeholder="Как к вам обращаться?"></label><label>Телефон / мессенджер<input name="contact" required placeholder="+43 … / @username"></label></div>
+          <label>Город и адрес доставки<textarea name="address" rows="2" placeholder="Можно заполнить позже"></textarea></label>
+          <label>Комментарий<textarea name="comment" rows="2" placeholder="Пожелания по доставке или вопрос"></textarea></label>
+          <button class="button button-dark submit-button" type="submit">Отправить заявку <span>↗</span></button>
+          <p class="form-hint">Это заявка, а не автоматическая оплата. Мы подтвердим наличие, стоимость доставки и реквизиты банковского перевода.</p>
+          <p class="form-status" id="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand brand-light" href="#"><span class="brand-mark">F.</span><span>PURE GALLERY<small>ART FOR YOUR SPACE</small></span></a><p>Современное искусство для вашего пространства.</p><div><a href="#catalog">Каталог</a><a href="#delivery">Доставка и оплата</a><a href="mailto:hello@example.com" id="email-link">Email</a></div><small>© <span id="year"></span> PURE GALLERY. Все права защищены.</small></footer>
+
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>

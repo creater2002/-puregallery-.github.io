@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+    <rect width="800" height="1000" fill="#e7e0d4"/>
+    <rect x="95" y="80" width="610" height="840" fill="#f8f5ee" stroke="#b6aa9a" stroke-width="12"/>
+    <rect x="130" y="115" width="540" height="770" fill="#c1b9aa"/>
+    <path d="M130 650 Q260 350 420 600 T670 440 L670 885 L130 885Z" fill="#7d766b" opacity=".8"/>
+    <circle cx="372" cy="388" r="110" fill="#e7e0d4" opacity=".75"/>
+    <path d="M160 250 C300 150 460 420 640 230" fill="none" stroke="#f5eee4" stroke-width="20" opacity=".7"/>
+    <text x="400" y="955" text-anchor="middle" font-family="Arial" font-size="20" fill="#6e665d" letter-spacing="5">REPLACE WITH YOUR PHOTO 04</text>
+    </svg>
